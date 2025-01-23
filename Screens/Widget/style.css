@@ -1,0 +1,180 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    display: inline-block; /* Ensures the container only takes up the width of the nav */
+    border-bottom: 1px solid #b1b1b1; /* Divider under the nav */
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #636363;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+nav a:hover {
+    color: #2ae6ff; /* Change the text color to blue on hover */
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #666; /* Gray text color */
+    margin-bottom:40px;
+}
+
+#earnings {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.earnings-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.amount {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.next-payout {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Flexbox layout for the containers */
+.container-row {
+    display: flex;
+    justify-content: center; /* Align containers to the left without spacing */
+    align-items: start;
+    margin: 0; /* No margin on the row */
+    padding: 0; /* No padding */
+}
+
+/* Base styles for containers */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px; /* Remove any default margin */
+}
+
+/* Smaller containers */
+.container.small {
+    width: 200px;
+    height: 170px;
+    background-color: #d0d0d0;
+    box-shadow: 0px 4px 10px #a1a1a1;
+    border-radius: 40px;
+    font-size: 14px;
+}
+
+/* Larger container */
+.container.large {
+    width: 250px;
+    height: 250px;
+    background-color: #bda6b1;
+    border-radius: 40px;
+    font-size: 18px;
+    box-shadow: 0px 4px 10px #a1a1a1;
+}
+
+/* Text styling inside the containers */
+.container p {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.curve {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: #ccc; /* Gray curve color */
+    border-radius: 50%;
+    transform: rotate(45deg); /* Rotate the curve */
+}
+
+#connect-sources {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.source-logos img {
+    width: 50px;
+    margin: 0 10px;
+}
+
+.logo-text {
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 40px;
+}
+
+.signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fcfcfc; /* Button color */
+    color: rgb(92, 92, 92);
+    text-decoration: none;
+    border-radius: 20px; /* Rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.signup-button:hover {
+    background-color: #7c7c7c; /* Darker shade on hover */
+    color: white;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+}
+
+.download-app {
+    display: inline-block;
+    background-color: #007aff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
